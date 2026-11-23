@@ -9,6 +9,10 @@ import os
 
 
 def main() -> None:
+    # 🤗 hugging face: warm at first glance, read the same way by a
+    # stranger of any age or background, and chosen for the moment
+    # rather than the first smiley that comes to mind — friendly
+    # without the intimacy a heart-eyes face would carry from a stranger.
     emoji = "\U0001F917"  # 🤗 hugging face
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
